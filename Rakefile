@@ -22,3 +22,6 @@ task :console do
   ActiveRecord::Base.logger = Logger.new(STDOUT)
   Pry.start
 end
+ENV["PORT"] ||= "4567"
+  ENV["PORT"] ||= "4567"
+  rackup = "rackup -p #{ENV['PORT']}"

@@ -1,4 +1,4 @@
-# Phase 3 Project Guidelines
+<!-- # Phase 3 Project Guidelines
 
 ## Learning Goals
 
@@ -136,3 +136,31 @@ fetch("http://localhost:9292/test")
 [dbdiagram.io]: https://dbdiagram.io/
 [postman download]: https://www.postman.com/downloads/
 [network tab]: https://developer.chrome.com/docs/devtools/network/
+
+
+ -->
+
+Features
+
+Search for properties based on location, check-in/check-out dates, and number of guests
+View details of individual properties, including photos, descriptions, amenities, location, and reviews
+Make reservations for properties by selecting check-in/check-out dates, number of guests, and additional services
+View and edit user profiles, including name, email address, and password
+Authenticate users using login and registration forms
+Communicate with other users or hosts through a messaging system
+Process payments for reservations using different payment methods
+Getting Started
+To run the application, you will need to have Node.js and Ruby installed on your machine. Once you have those installed, follow these steps:
+
+Clone the repository to your local machine
+Install the dependencies by running npm install in the root directory of the project
+To start the frontend, run npm start in the root directory of the project. This will start a development server and open the application in your default web browser.
+To start the backend, navigate to the backend directory and run ruby app.rb. This will start a local server on http://localhost:4567 that the frontend can use to make API requests.
+Architecture
+The frontend is built using React, with each major feature of the application broken down into individual components. These components communicate with each other using props and state, and make API requests to the backend to retrieve or update data.
+
+The backend is built  in Ruby. It provides a RESTful API that the frontend can use to interact with the database and perform authentication and payment processing. The API endpoints are defined in app.rb.
+
+
+its frontend is github link is https://github.com/njiru-kamau/Airbnbaphase3
+
